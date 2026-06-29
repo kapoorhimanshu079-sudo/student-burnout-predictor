@@ -1,0 +1,10 @@
+# Ignore the massive dataset file
+*.csv
+!model_results.csv
+
+# Ignore your trained model binary (optional, but keeps your repo clean)
+# *.pkl
+
+# Ignore python cache files
+__pycache__/
+.ipynb_checkpoints/
